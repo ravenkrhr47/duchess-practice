@@ -1,1 +1,3 @@
-PYPI_TOKEN = "pypi-FLAG{duchess-789}"
+import os
+
+PYPI_TOKEN = os.environ.get("PYPI_TOKEN")
